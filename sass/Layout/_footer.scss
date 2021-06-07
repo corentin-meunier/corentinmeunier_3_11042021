@@ -1,0 +1,38 @@
+footer {
+  display: block;
+  background-color: $color-bg-footer;
+  margin: 0rem;
+  border: 0rem;
+  width: 100%;
+  font-size: 100%;
+  padding: 1.8rem;
+  color: $color-text-footer;
+  h3 {
+    font-family: "Shrikhand", "sans-serif";
+    padding: 0rem 0.75rem 0.25rem 0rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+  }
+  ul {
+    list-style-type: none;
+    padding-left: 0rem;
+    li {
+      padding: 0.4rem 0rem 0.4rem 0rem;
+      a {
+        color: $color-text-footer;
+      }
+    }
+  }
+  .fa-utensils {
+      margin-right: 12px;
+    }
+  .fa-hands-helping {
+      margin-right: 5px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    text-align: center;
+  }
+}
