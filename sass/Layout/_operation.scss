@@ -1,7 +1,7 @@
 .operation {
   margin-bottom: 2.5rem;
   h2 {
-    padding: 1.5rem;
+    padding: 1rem 1.5rem;
   }
 }
 @media screen and (min-width: 768px) {
@@ -19,7 +19,7 @@
     justify-content: flex-start;
     align-items: center;
     flex-wrap: nowrap;
-    padding: 1.5rem;
+    padding: 1rem 1.5rem;
     margin: 1rem 1.5rem 1rem 1.5rem;
     border-radius: 1.5rem;
     box-shadow: 1px 2px 8px 2px #c4c4c4;
@@ -36,7 +36,7 @@
     }
   }
 }
-@media screen and (min-width: 1280px)
+@media screen and (min-width: 1280px) {
   .operation__steps {
     flex-wrap: wrap;
     display: flex;
