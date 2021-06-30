@@ -1,5 +1,5 @@
 .operation {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
   h2 {
     padding: 1rem 1.5rem;
   }
@@ -55,7 +55,11 @@
 }
   
 .operation__steps--icon {
-  color: grey;
+  color: $color-operation-steps-icon;
   font-size: 1.2rem;
   margin-left: 20px;
+}
+
+.operation__steps li:hover {
+  background: #f2eafb;
 }

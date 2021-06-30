@@ -141,9 +141,8 @@ footer {
   padding: 1.8rem;
   color: white;
 }
-footer h3 {
+footer h6 {
   font-family: "Shrikhand", "sans-serif";
-  padding: 0rem 0.75rem 0.25rem 0rem;
   font-size: 1.5rem;
   font-weight: 500;
 }
@@ -261,7 +260,7 @@ footer .fa-hands-helping {
 }
 
 .loader {
-  background: -webkit-linear-gradient(#FFFFFF, #FF79DA, #9356DC);
+  background: linear-gradient(#FFFFFF, #FF79DA, #9356DC);
   width: 100%;
   height: 100%;
   line-height: 100%;
@@ -310,6 +309,7 @@ footer .fa-hands-helping {
   position: absolute;
   top: 50%;
   left: 50%;
+  right: 50%;
   -webkit-animation: rotate 1s linear infinite;
           animation: rotate 1s linear infinite;
 }
@@ -426,7 +426,7 @@ footer .fa-hands-helping {
 }
 
 .operation {
-  margin-bottom: 2.5rem;
+  margin-bottom: 2rem;
 }
 .operation h2 {
   padding: 1rem 1.5rem;
@@ -487,6 +487,10 @@ footer .fa-hands-helping {
   margin-left: 20px;
 }
 
+.operation__steps li:hover {
+  background: #f2eafb;
+}
+
 .maps {
   background: #eaeaea;
   display: flex;
@@ -541,8 +545,8 @@ footer .fa-hands-helping {
   display: inline-block;
   opacity: 1;
   background: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
-  background: -webkit-linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   -webkit-background-clip: text;
+          background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
