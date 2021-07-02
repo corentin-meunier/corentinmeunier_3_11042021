@@ -24,6 +24,8 @@ h2 {
 
 h6 {
   margin: 0rem;
+  font-size: 1.5rem;
+  font-weight: 500;
 }
 
 h1, h6 {
@@ -141,11 +143,6 @@ footer {
   padding: 1.8rem;
   color: white;
 }
-footer h6 {
-  font-family: "Shrikhand", "sans-serif";
-  font-size: 1.5rem;
-  font-weight: 500;
-}
 footer ul {
   list-style-type: none;
   padding-left: 0rem;
@@ -169,7 +166,7 @@ footer .fa-hands-helping {
   }
 }
 .about {
-  background: #f6f6f6;
+  background: #f2f2f2;
   text-align: center;
   width: 100%;
   padding: 2rem;
@@ -203,7 +200,7 @@ footer .fa-hands-helping {
   box-shadow: 4px 4px 6px #aaa;
   margin: 20px;
   position: relative;
-  background: #fff;
+  background: white;
 }
 @media screen and (min-width: 768px) {
   .card {
@@ -355,7 +352,7 @@ footer .fa-hands-helping {
 }
 
 .main__menu {
-  background-color: #f6f6f6;
+  background-color: #f2f2f2;
   border-top-left-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
   width: 100%;
@@ -451,17 +448,11 @@ footer .fa-hands-helping {
   margin: 1rem 1.5rem 1rem 1.5rem;
   border-radius: 1.5rem;
   box-shadow: 1px 2px 8px 2px #c4c4c4;
-  background-color: #f5f5f5;
+  background-color: #f2f2f2;
 }
 .operation__steps li p {
   font-weight: 500;
   margin-left: 1.5rem;
-}
-.operation__steps li :hover {
-  background: #f2eafb;
-}
-.operation__steps li :hover .fas {
-  color: #9356DC;
 }
 
 @media screen and (min-width: 1280px) {
@@ -476,6 +467,7 @@ footer .fa-hands-helping {
 .operation__steps--number {
   background-color: #9356DC;
   color: white;
+  border: 2px solid #6023a9;
   border-radius: 50%;
   padding: 5px 9px;
   margin-left: -40px;
@@ -488,11 +480,11 @@ footer .fa-hands-helping {
 }
 
 .operation__steps li:hover {
-  background: #f2eafb;
+  background: #e4d5f6;
 }
 
 .maps {
-  background: #eaeaea;
+  background: #d9d9d9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -501,7 +493,7 @@ footer .fa-hands-helping {
 
 .maps__search input {
   border: none;
-  background: #eaeaea;
+  background: #d9d9d9;
   font-size: 1rem;
   padding: 1rem 0.5rem;
   margin-top: 0.5rem;
@@ -526,9 +518,11 @@ footer .fa-hands-helping {
 }
 
 .new {
-  color: #008766;
+  padding: 1px 5px;
+  margin-right: 1rem;
+  color: #278870;
   background: #99E2D0;
-  border: 5px solid #99E2D0;
+  border: 2px solid #278870;
   border-radius: 5px;
   position: absolute;
   right: 1%;
@@ -583,7 +577,7 @@ footer .fa-hands-helping {
 }
 
 .meals {
-  background-color: #fff;
+  background-color: white;
   border-radius: 1rem;
   margin: 1rem;
   padding: 0.5rem;
@@ -652,6 +646,7 @@ footer .fa-hands-helping {
   margin: 30px 0;
   padding: 20px;
   width: 50%;
+  font-size: 1.1rem;
 }
 @media screen and (min-width: 1280px) {
   .btn__order button {
