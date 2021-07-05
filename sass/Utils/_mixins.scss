@@ -12,7 +12,7 @@
   background: $color-mainbg-secondary;
   text-align: center;
   width: 100%;
-  padding: 2rem;
+  padding: 2rem 1rem;
 }
 
 @mixin btn-about {
@@ -22,7 +22,7 @@
   padding: 1rem 1.5rem;
   color: #fff;
   font-weight: bold;
-  box-shadow: 4px 4px 6px #aaa;
+  box-shadow: 4px 4px 6px darken($color-mainbg-primary,20%);
   cursor: pointer;
 }
 
@@ -44,7 +44,7 @@
   padding: 1rem 1.5rem;
   margin: 1rem 1.5rem 1rem 1.5rem;
   border-radius: 1.5rem;
-  box-shadow: 1px 2px 8px 2px #c4c4c4;
+  box-shadow: 1px 2px 8px 2px darken($color-mainbg-secondary,20%);
   background-color: $color-mainbg-secondary;
 }
 
@@ -62,7 +62,7 @@
 
 @mixin card {
   border-radius: 1.5rem;
-  box-shadow: 4px 4px 6px #aaa;
+  box-shadow: 4px 4px 6px darken($color-mainbg-primary,20%);
   margin: 20px;
   position: relative;
   background: $color-mainbg-primary;
@@ -114,7 +114,7 @@
   border-radius: 1rem;
   margin: 1rem;
   padding: 0.5rem;
-  box-shadow: 4px 4px 6px #aaa;
+  box-shadow: 4px 4px 6px darken($color-mainbg-primary,20%);
   position: relative;
   cursor: pointer;
   white-space: nowrap;

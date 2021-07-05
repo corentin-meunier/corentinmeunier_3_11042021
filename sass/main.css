@@ -169,7 +169,7 @@ footer .fa-hands-helping {
   background: #f2f2f2;
   text-align: center;
   width: 100%;
-  padding: 2rem;
+  padding: 2rem 1rem;
 }
 .about h2 {
   font-weight: bold;
@@ -197,7 +197,7 @@ footer .fa-hands-helping {
 
 .card {
   border-radius: 1.5rem;
-  box-shadow: 4px 4px 6px #aaa;
+  box-shadow: 4px 4px 6px #cccccc;
   margin: 20px;
   position: relative;
   background: white;
@@ -447,7 +447,7 @@ footer .fa-hands-helping {
   padding: 1rem 1.5rem;
   margin: 1rem 1.5rem 1rem 1.5rem;
   border-radius: 1.5rem;
-  box-shadow: 1px 2px 8px 2px #c4c4c4;
+  box-shadow: 1px 2px 8px 2px #bfbfbf;
   background-color: #f2f2f2;
 }
 .operation__steps li p {
@@ -508,7 +508,7 @@ footer .fa-hands-helping {
   padding: 1rem 1.5rem;
   color: #fff;
   font-weight: bold;
-  box-shadow: 4px 4px 6px #aaa;
+  box-shadow: 4px 4px 6px #cccccc;
   cursor: pointer;
 }
 .btn__about button:hover {
@@ -581,7 +581,7 @@ footer .fa-hands-helping {
   border-radius: 1rem;
   margin: 1rem;
   padding: 0.5rem;
-  box-shadow: 4px 4px 6px #aaa;
+  box-shadow: 4px 4px 6px #cccccc;
   position: relative;
   cursor: pointer;
   white-space: nowrap;
@@ -634,6 +634,10 @@ footer .fa-hands-helping {
   margin-bottom: 5px;
 }
 
+.full__menu {
+  padding-bottom: 10px;
+}
+
 .btn__order button {
   background-image: linear-gradient(to left, #9356dc, #b35cdc, #cf64dc, #e86edb, #ff79da);
   border: 1px solid transparent;
@@ -641,7 +645,7 @@ footer .fa-hands-helping {
   padding: 1rem 1.5rem;
   color: #fff;
   font-weight: bold;
-  box-shadow: 4px 4px 6px #aaa;
+  box-shadow: 4px 4px 6px #cccccc;
   cursor: pointer;
   margin: 30px 0;
   padding: 20px;
